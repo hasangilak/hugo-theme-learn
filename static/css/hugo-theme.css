@@ -71,15 +71,17 @@ body {
 }
 
 #toc-menu {
-  border-right: thin solid #DAD8D8 !important;
-  padding-right: 1rem !important;
-  margin-right: 0.5rem !important;
+  border-left: thin solid #DAD8D8 !important;
+  padding-left: 1rem !important;
+  margin-left: 0.5rem !important;
 }
-
+#toc-menu > i {
+  vertical-align: sub;
+}
 #sidebar-toggle-span {
-  border-right: thin solid #DAD8D8 !important;
-  padding-right: 0.5rem !important;
-  margin-right: 1rem !important;
+  border-left: thin solid #DAD8D8 !important;
+  padding-left: 0.5rem !important;
+  margin-left: 1rem !important;
 }
 
 .btn {
