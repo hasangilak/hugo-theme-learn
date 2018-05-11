@@ -434,6 +434,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #chapter h1 {
     font-size: 5rem;
+    text-align: center;
     border-bottom: 4px solid #F0F2F4;
 }
 #chapter p {
@@ -502,41 +503,42 @@ div.notices p:first-child:before {
     color: #fff;
     font-family: FontAwesome;
     content: '';
-    left: 10px;
+    right: 10px;
 }
 div.notices p:first-child:after {
     position: absolute;
-    top: 2px;
+    top: 3px;
     color: #fff;
-    left: 2rem;
+    font-weight: 200;
+    right: 2rem;
 }
 div.notices.info p {
     border-top: 30px solid #F0B37E;
     background: #FFF2DB;
 }
 div.notices.info p:first-child:after {
-    content: 'Info';
+    content: 'اطلاعات';
 }
 div.notices.warning p {
     border-top: 30px solid rgba(217, 83, 79, 0.8);
     background: #FAE2E2;
 }
 div.notices.warning p:first-child:after {
-    content: 'Warning';
+    content: 'اخطار';
 }
 div.notices.note p {
     border-top: 30px solid #6AB0DE;
     background: #E7F2FA;
 }
 div.notices.note p:first-child:after {
-    content: 'Note';
+    content: 'یادداشت';
 }
 div.notices.tip p {
     border-top: 30px solid rgba(92, 184, 92, 0.8);
     background: #E6F9E6;
 }
 div.notices.tip p:first-child:after {
-    content: 'Tip';
+    content: 'نکته';
 }
 
 /* attachments shortcode */
@@ -1105,7 +1107,9 @@ pre .copy-to-clipboard:hover {
     padding: 0;
     margin: 0;
 }
-
+#sidebar li > ul {
+    font-weight: 200;
+}
 #sidebar #shortcuts li {
     padding: 2px 0;
     list-style: none;

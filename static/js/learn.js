@@ -7,7 +7,7 @@ function getScrollBarWidth() {
     var outer = document.createElement('div');
     outer.style.position = "absolute";
     outer.style.top = "0px";
-    outer.style.left = "0px";
+    outer.style.right = "0px";
     outer.style.visibility = "hidden";
     outer.style.width = "200px";
     outer.style.height = "150px";
