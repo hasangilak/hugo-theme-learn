@@ -1142,4 +1142,11 @@ pre .copy-to-clipboard:hover {
 p{
     color: #5b5b5b;
 }
+#sidebar .highlightable {
+    direction: ltr;
+}
+.topics{
+    direction: rtl;
+}
 /*# sourceMappingURL=theme.css.map */
+
