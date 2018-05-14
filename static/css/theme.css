@@ -1032,20 +1032,20 @@ td {
 @media only all and (max-width: 47.938em) {
     #sidebar {
         width: 230px;
-        left: -230px;
+        right: -230px;
     }
     #body {
-        margin-left: 0;
+        margin-right: 0;
         width: 100%;
     }
     .sidebar-hidden {
         overflow: hidden;
     }
     .sidebar-hidden #sidebar {
-        left: 0;
+        right: 0;
     }
     .sidebar-hidden #body {
-        margin-left: 230px;
+        margin-right: 230px;
         overflow: hidden;
     }
     .sidebar-hidden #overlay {
